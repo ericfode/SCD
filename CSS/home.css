@@ -1,0 +1,143 @@
+	body{
+	width:1300px;
+	height:900px;
+}
+#header {
+	width:1300px;
+	height:25%;
+}
+
+#logoArea{
+	width:1300px;
+	height:30px;
+}
+
+#leftImg{
+	background-image:url(../images/sideImage.gif);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:200px;
+	margin-top:50px;
+	width:300px;
+	height:400px;
+}
+
+#logo{
+	background-image:url(../images/logo.gif);
+	background-repeat:no-repeat;
+	float:right;
+	width:702px;
+	height:236px;
+}
+
+#nav{
+	position:relative;
+	height:50px;
+	top:-160px;
+	width:450px;
+	left:770px;
+
+}
+
+#aboutNav{
+	display:block;
+	float:left;
+	height:100px;
+	width:85px;
+}
+
+#aboutNav div{
+	display:block;
+	background-repeat:no-repeat;
+	padding-bottom:5px;
+	width:80px;
+	height:22px;
+	clear:both;
+	padding-left:0px;
+	float:left;
+	text-align:left;
+	
+}
+
+#popdownAbout {
+	list-style:none;
+}
+
+#aboutNav .about{
+	background-image:url(../images/about.gif);
+	padding-bottom:20px;
+}
+
+#aboutNav .contact{
+	background-image:url(../images/contact.gif);
+}
+
+#aboutNav .history{
+	background-image:url(../images/history.gif);
+}
+
+#aboutNav .contact:hover{
+	background-image:url(../images/contactOS.gif);
+}
+
+#aboutNav .history:hover{
+	background-image:url(../images/historyOS.gif);
+}
+
+#servicesNav{
+	float:right;
+	width:101px;
+	height:200px;
+}
+
+#servicesNav div{
+	display:block;
+	float:left;
+	background-repeat:no-repeat;
+	padding-bottom:5px;
+	width:100px;
+	height:22px;
+}
+
+#popdownServices{
+	list-style:none;
+	list-style-position:inside;
+}
+
+#servicesNav .services{
+	background-image:url(../images/services.gif);
+	padding-bottom:20px;
+}
+
+#servicesNav .food{
+	background-image:url(../images/food.gif);
+}
+
+#servicesNav .flowers{
+	background-image:url(../images/flowers.gif);
+}
+
+#servicesNav .decor{
+	background-image:url(../images/decor.gif);
+}
+
+.weddings{
+	background-image:url(../images/weddings.gif);
+}
+
+#servicesNav .food:hover{
+	background-image:url(../images/foodOS.gif);
+}
+
+#servicesNav .flowers:hover{
+	background-image:url(../images/flowersOS.gif);
+}
+
+#servicesNav .decor:hover{
+	background-image:url(../images/decorOS.gif);
+}
+
+#servicesNav .weddings:hover{
+	background-image:url(../images/weddingsOS.gif);
+}
+

@@ -1,0 +1,39 @@
+body#main .container {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+}
+body#main .container {
+  display: block;
+}
+body#main #logo {
+  float: left;
+}
+body#main .navBar {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+}
+body#main .navBar {
+  display: block;
+}
+body#main .navBar li {
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body#main .navBar li.first {
+  padding-left: 0px;
+}
+body#main .navBar li.last {
+  padding-right: 0px;
+}

@@ -1,0 +1,92 @@
+#logo {
+  background-image: url(../images/logo.gif);
+  background-repeat: no-repeat;
+  width: 702px;
+  height: 236px; }
+
+body#index {
+  width: 1300px;
+  height: 900px; }
+  body#index #logo {
+    float: left; }
+  body#index #header {
+    width: 1300px;
+    height: 25%; }
+  body#index #logoArea {
+    width: 1300px;
+    height: 30px; }
+  body#index #leftImg {
+    background-image: url(../images/sideImage.gif);
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px; }
+  body#index #nav {
+    position: relative;
+    height: 50px;
+    top: -160px;
+    width: 450px;
+    left: 770px; }
+  body#index #aboutNav {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 85px; }
+    body#index #aboutNav div {
+      display: block;
+      background-repeat: no-repeat;
+      padding-bottom: 5px;
+      width: 80px;
+      height: 22px;
+      clear: both;
+      padding-left: 0px;
+      float: left;
+      text-align: left; }
+  body#index #popdownAbout {
+    list-style: none; }
+  body#index #aboutNav .about {
+    background-image: url(../images/about.gif);
+    padding-bottom: 20px; }
+  body#index #aboutNav .contact {
+    background-image: url(../images/contact.gif); }
+  body#index #aboutNav .history {
+    background-image: url(../images/history.gif); }
+  body#index #aboutNav .contact:hover {
+    background-image: url(../images/contactOS.gif); }
+  body#index #aboutNav .history:hover {
+    background-image: url(../images/historyOS.gif); }
+  body#index #servicesNav {
+    float: right;
+    width: 101px;
+    height: 200px; }
+    body#index #servicesNav div {
+      display: block;
+      float: left;
+      background-repeat: no-repeat;
+      padding-bottom: 5px;
+      width: 100px;
+      height: 22px; }
+  body#index #popdownServices {
+    list-style: none;
+    list-style-position: inside; }
+  body#index #servicesNav .services {
+    background-image: url(../images/services.gif);
+    padding-bottom: 20px; }
+  body#index #servicesNav .food {
+    background-image: url(../images/food.gif); }
+  body#index #servicesNav .flowers {
+    background-image: url(../images/flowers.gif); }
+  body#index #servicesNav .decor {
+    background-image: url(../images/decor.gif); }
+  body#index .weddings {
+    background-image: url(../images/weddings.gif); }
+  body#index #servicesNav .food:hover {
+    background-image: url(../images/foodOS.gif); }
+  body#index #servicesNav .flowers:hover {
+    background-image: url(../images/flowersOS.gif); }
+  body#index #servicesNav .decor:hover {
+    background-image: url(../images/decorOS.gif); }
+  body#index #servicesNav .weddings:hover {
+    background-image: url(../images/weddingsOS.gif); }

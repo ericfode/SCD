@@ -1,0 +1,133 @@
+
+#logo
+  background-image: url(../images/logo.gif)
+  background-repeat: no-repeat
+  width: 702px
+  height: 236px
+
+body#index
+  width: 1300px
+  height: 900px
+  
+  #logo
+    float:left
+  
+  #header
+    width: 1300px
+    height: 25%
+
+
+  #logoArea
+    width: 1300px
+    height: 30px
+
+
+  #leftImg
+    background-image: url(../images/sideImage.gif)
+    background-repeat: no-repeat
+    float: left
+    margin-left: 200px
+    margin-top: 50px
+    width: 300px
+    height: 400px
+
+
+
+  #nav
+    position: relative
+    height: 50px
+    top: -160px
+    width: 450px
+    left: 770px
+
+
+  #aboutNav
+    display: block
+    float: left
+    height: 100px
+    width: 85px
+
+    div
+      display: block
+      background-repeat: no-repeat
+      padding-bottom: 5px
+      width: 80px
+      height: 22px
+      clear: both
+      padding-left: 0px
+      float: left
+      text-align: left
+
+
+  #popdownAbout
+    list-style: none
+
+
+  #aboutNav
+    .about
+      background-image: url(../images/about.gif)
+      padding-bottom: 20px
+
+    .contact
+      background-image: url(../images/contact.gif)
+
+    .history
+      background-image: url(../images/history.gif)
+
+    .contact:hover
+      background-image: url(../images/contactOS.gif)
+
+    .history:hover
+      background-image: url(../images/historyOS.gif)
+
+
+  #servicesNav
+    float: right
+    width: 101px
+    height: 200px
+
+    div
+      display: block
+      float: left
+      background-repeat: no-repeat
+      padding-bottom: 5px
+      width: 100px
+      height: 22px
+
+
+  #popdownServices
+    list-style: none
+    list-style-position: inside
+
+
+  #servicesNav
+    .services
+      background-image: url(../images/services.gif)
+      padding-bottom: 20px
+
+    .food
+      background-image: url(../images/food.gif)
+
+    .flowers
+      background-image: url(../images/flowers.gif)
+
+    .decor
+      background-image: url(../images/decor.gif)
+
+
+  .weddings
+    background-image: url(../images/weddings.gif)
+
+
+  #servicesNav
+    .food:hover
+      background-image: url(../images/foodOS.gif)
+
+    .flowers:hover
+      background-image: url(../images/flowersOS.gif)
+
+    .decor:hover
+      background-image: url(../images/decorOS.gif)
+
+    .weddings:hover
+      background-image: url(../images/weddingsOS.gif)

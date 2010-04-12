@@ -1,0 +1,13 @@
+@import _base.sass
+
+  df:
+body#main
+  .container
+    +container(20)
+  #logo
+    :float left
+  .navBar
+    +horizontal-list(20px)
+    :float right
+    
+

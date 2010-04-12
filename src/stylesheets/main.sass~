@@ -1,0 +1,14 @@
+@import _base.sass
+
+
+body#main
+  .container
+    +container  
+
+  #logo
+    :float left
+.navBar
+  +horizontal-list(20px)
+  :float right
+  :background-color green
+

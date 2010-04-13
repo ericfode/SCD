@@ -35,7 +35,7 @@ $(document).ready(function(){
 	$('.thumb').mouseover(function(){
 	var num = $(this).attr('class').split(' ').slice(-1);
 	var index = parseInt(num);
-	outPic = photoSet.photo[index];
+	var outPic = photoSet.photo[index];
 	var path = 'url(http://farm'+
 									outPic.farm +
 									'.static.flickr.com/'+

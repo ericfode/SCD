@@ -1,6 +1,30 @@
 !!!
 %html
   %head
-    %title TestSite
-  %body
-    = yield
+    %title Sophies choice Desigens
+    = stylesheets
+  %body#main
+    .container
+      #header
+        #logo
+          %a(href="./index.html")
+        %ul.navBar 
+          %li
+            .about.first about 
+              %a(href="./about.html")
+          %li
+            .food food
+              %a(href="./food.html")
+          %li
+            .flowers flowers
+              %a(href="./flowers.html")
+          %li
+            .decor decor
+              %a(href="./decor.html")
+          %li
+            .weddings weddings
+              %a(href="weddings.html")
+          %li
+            .contact contact
+              %a(href="contact.html"
+    =yield

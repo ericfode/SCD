@@ -212,4 +212,18 @@ q
 img
   :vertical-align bottom
 
-/* @end */
+/* @end *i
+
+=div-link
+  a
+    :display block
+    :width 100%
+    :height 100%
+    :text-decoration none
+  
+  &:hover
+    :text-decoration none;
+    :background-color #EFEFEF
+
+
+

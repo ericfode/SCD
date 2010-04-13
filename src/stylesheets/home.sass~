@@ -10,7 +10,7 @@ body#index
   height: 900px
   
   #logo
-    float:left
+    float: left
   
   #header
     width: 1300px

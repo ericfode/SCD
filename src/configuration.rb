@@ -1,4 +1,5 @@
 require 'compass'
+require 'susy'
 
 Compass.configuration do |config|
 

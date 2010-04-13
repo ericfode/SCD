@@ -3,7 +3,7 @@
     %link{ :href => "stylesheets/screen.css", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "stylesheets/print.css", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "stylesheets/main.css", :rel => "stylesheet", :type => "text/css" }
-               
+  %title test             
    
   %body#main
     .container
@@ -21,14 +21,25 @@
           %li
             .weddings weddings
           %li
-            .contacts contacts
+            .contact contact
                
       #bodyContent
-      The goal of Sophie’s Choice Designs came from its owner, Maria Sestero.  When she started the company, she had one dream; to make every event more beautiful.  The company officially started in 1989 and got its name from Maria’s daughter Sophie, born that same year.  At the time, Maria was running her small business from her own home; making flower arrangements in the garage and cooking from her little kitchen.  Twenty years later, Sophie’s Choice Designs has grown into one of the most successful catering and floral businesses in Boise.  During that time, Maria’s signature dishes and original recipes have made her a favorite among different venues and clients in Idaho.  
-      #footerContent
+        #bodyText
+          The goal of Sophie’s Choice Designs came from its owner, Maria Sestero.  When she started the company, she had one dream; to make every event more beautiful.  The company officially started in 1989 and got its name from Maria’s daughter Sophie, born that same year.  At the time, Maria was running her small business from her own home; making flower arrangements in the garage and cooking from her little kitchen.  Twenty years later, Sophie’s Choice Designs has grown into one of the most successful catering and floral businesses in Boise.  During that time, Maria’s signature dishes and original recipes have made her a favorite among different venues and clients in Idaho.  
+        #imageArea
+          #pane
+          #thumbs
+            - (0..10).each do |i|
+              .thumb
+            
+      #footer
         #recentEvents
-          .img1
-          .img2
-          .img3
+        %ul.recentPics
+          %li
+            #img1.img
+          %li  
+            #img2.img
+          %li
+            #img3.img
         #contactInfo
-        contact info will be here
+          contact info will be here

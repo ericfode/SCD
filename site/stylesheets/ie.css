@@ -1,80 +1,131 @@
+/* Welcome to Susy. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* @group defaults */
 body {
-  text-align: center;
-}
-* html body legend {
-  margin: 0px -8px 16px 0;
-  padding: 0;
-}
-html>body p code {
-  *white-space: normal;
-}
+  font-family: Helvetica, Arial, sans-serif;
+  color: #444444; }
 
-.container {
-  text-align: left;
-}
+/* @group links */
+:focus {
+  outline: 1px dotted #777777;
+  color: #006666; }
 
-ol {
-  margin-left: 2em;
-}
+a:link {
+  color: #009999; }
+a:visited {
+  color: #990099; }
+a:focus, a:hover, a:active {
+  color: #006666;
+  text-decoration: none; }
 
-sup {
-  vertical-align: text-top;
-}
+/* @end */
+/* @group headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  font-weight: bold; }
 
-sub {
-  vertical-align: text-bottom;
-}
+h1, h2, h3 {
+  font-family: Baskerville, Palatino, serif; }
 
-hr {
-  margin: -8px auto 11px;
-}
+h1 {
+  font-size: 1.5em; }
 
-img {
-  -ms-interpolation-mode: bicubic;
-}
+/* @end */
+/* @group forms */
+form *:focus {
+  outline: none; }
 
 fieldset {
-  padding-top: 0;
-}
+  margin: 1.5em 0; }
 
-input.text {
-  margin: 0.5em 0;
-  background-color: #fff;
-  border: 1px solid #bbb;
-}
-input.text:focus {
-  border: 1px solid #666;
-}
-input.title {
-  margin: 0.5em 0;
-  background-color: #fff;
-  border: 1px solid #bbb;
-}
-input.title:focus {
-  border: 1px solid #666;
-}
-input.checkbox {
-  position: relative;
-  top: 0.25em;
-}
-input.radio {
-  position: relative;
-  top: 0.25em;
-}
-input.button {
-  position: relative;
-  top: 0.25em;
-}
+legend {
+  font-weight: bold;
+  font-variant: small-caps; }
 
-textarea {
-  margin: 0.5em 0;
-}
+label {
+  display: block;
+  margin-top: 1.5em; }
 
-select {
-  margin: 0.5em 0;
-}
+legend + label {
+  margin-top: 0; }
 
-button {
-  position: relative;
-  top: 0.25em;
-}
+textarea, input[type="text"] {
+  color: #777777;
+  /* Mozilla (FireFox, Camino) */
+  -moz-box-sizing: border-box;
+  /* Webkit (Safari, Chrome) */
+  -webkit-box-sizing: border-box;
+  /* IE (8) */
+  -ms-box-sizing: border-box;
+  /* CSS3 */
+  box-sizing: border-box;
+  width: 100%; }
+
+/* @end */
+/* @group tables */
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  width: 100%;
+  border: 0.063em solid #aaaaaa;
+  border-left: none;
+  border-right: none;
+  padding: 0.438em 0;
+  margin: 0.5em 0; }
+
+tbody {
+  color: #777777; }
+
+th {
+  font-weight: bold; }
+
+/* @end */
+/* @group block tags */
+p {
+  margin: 1.5em 0; }
+
+ol {
+  list-style: decimal;
+  margin: 0 1.5em 1.5em 1.5em; }
+
+ul {
+  list-style: disc;
+  margin: 0 1.5em 1.5em 1.5em; }
+
+blockquote {
+  margin: 1.5em;
+  color: #777777; }
+
+/* @end */
+/* @group inline tags */
+cite {
+  font-style: italic;
+  color: #777777; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+ins {
+  text-decoration: underline; }
+
+del {
+  text-decoration: line-through; }
+
+q {
+  font-style: italic; }
+  q em {
+    font-style: normal; }
+
+/* @end */
+/* @group replaced tags */
+img {
+  vertical-align: bottom; }
+
+/* @end */
+
+/* @end */

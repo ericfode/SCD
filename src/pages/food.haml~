@@ -19,13 +19,13 @@
               %a(href="./food.html")
           %li
             .flowers 
-              %a(href="./food.html")
+              %a(href="./flowers.html")
           %li
             .decor 
               %a(href="./decor.html")
           %li
             .weddings 
-              %a(href="./wedding.html")
+              %a(href="./weddings.html")
           %li
             .contact 
               %a(href="./contact.html")

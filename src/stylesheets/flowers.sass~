@@ -56,7 +56,7 @@ body#flowers
     :background-repeat no-repeat
     :position relative
     :left 175px
-    :height 35px
+    :height 40px
     :width 700px
     +columns(12)
     +full

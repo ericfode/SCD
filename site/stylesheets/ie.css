@@ -161,7 +161,7 @@ img {
 
 /* @end *i */
 .navBar {
-  height: 100px;
+  height: 20px;
   padding-top: 17px;
   padding-left: 23.81%;
   width: 69.841%;
@@ -242,9 +242,10 @@ li li.last {
 }
 
 .weddings {
-  background-image: url("/images/weddingsTmp.gif",50%);
+  background-image: url("/images/weddingsTmp.gif");
   width: 94px;
-  height: 17px;
+  height: 22px;
+  background-repate: no-repeat;
   margin-right: 9px;
 }
 
@@ -253,6 +254,19 @@ li li.last {
   width: 79px;
   height: 18px;
   margin-right: 15px;
+}
+.contact #contactInfo {
+  padding-top: 40px;
+  background-image: url("/images/contactInfoTmp.gif");
+  height: 20px;
+  width: 700px;
+  width: 93.651%;
+  display: inline;
+  float: left;
+  margin-right: 1.587%;
+  clear: both;
+  margin-right: 3.175%;
+  margin-left: 3.175%;
 }
 
 /* @end */

@@ -223,7 +223,6 @@ img
      
   &:hover
     :text-decoration none
-    :background-color #EFEFEF
     :curser pointer
 
 

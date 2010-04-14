@@ -18,87 +18,109 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   font-style: inherit;
   font-size: 100%;
   font-family: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 *:focus {
-  outline: 0; }
+  outline: 0;
+}
 
 body {
   line-height: 1em;
   color: black;
-  background: #fff; }
+  background: #fff;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
   border-collapse: separate;
   border-spacing: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 caption, th, td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 q, blockquote {
-  quotes: "" ""; }
-  q:before, q:after, blockquote:before, blockquote:after {
-    content: ""; }
+  quotes: "" "";
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
 
 img a {
-  border: none; }
+  border: none;
+}
 
 /* @end */
 /* @group defaults */
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: #444444; }
+  color: #444444;
+}
 
 /* @group links */
 :focus {
   outline: 1px dotted #777777;
-  color: #006666; }
+  color: #006666;
+}
 
 a:link {
-  color: #009999; }
+  color: #009999;
+}
 a:visited {
-  color: #990099; }
+  color: #990099;
+}
 a:focus, a:hover, a:active {
   color: #006666;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* @end */
 /* @group headers */
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 h1, h2, h3 {
-  font-family: Baskerville, Palatino, serif; }
+  font-family: Baskerville, Palatino, serif;
+}
 
 h1 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 /* @end */
 /* @group forms */
 form *:focus {
-  outline: none; }
+  outline: none;
+}
 
 fieldset {
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+}
 
 legend {
   font-weight: bold;
-  font-variant: small-caps; }
+  font-variant: small-caps;
+}
 
 label {
   display: block;
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+}
 
 legend + label {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 textarea, input[type="text"] {
   color: #777777;
@@ -110,7 +132,8 @@ textarea, input[type="text"] {
   -ms-box-sizing: border-box;
   /* CSS3 */
   box-sizing: border-box;
-  width: 100%; }
+  width: 100%;
+}
 
 /* @end */
 /* @group tables */
@@ -121,60 +144,176 @@ table {
   border-left: none;
   border-right: none;
   padding: 0.438em 0;
-  margin: 0.5em 0; }
+  margin: 0.5em 0;
+}
 
 tbody {
-  color: #777777; }
+  color: #777777;
+}
 
 th {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* @end */
 /* @group block tags */
 p {
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+}
 
 ol {
   list-style: decimal;
-  margin: 0 1.5em 1.5em 1.5em; }
+  margin: 0 1.5em 1.5em 1.5em;
+}
 
 ul {
   list-style: disc;
-  margin: 0 1.5em 1.5em 1.5em; }
+  margin: 0 1.5em 1.5em 1.5em;
+}
 
 blockquote {
   margin: 1.5em;
-  color: #777777; }
+  color: #777777;
+}
 
 /* @end */
 /* @group inline tags */
 cite {
   font-style: italic;
-  color: #777777; }
+  color: #777777;
+}
 
 em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 ins {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 del {
-  text-decoration: line-through; }
+  text-decoration: line-through;
+}
 
 q {
-  font-style: italic; }
-  q em {
-    font-style: normal; }
+  font-style: italic;
+}
+q em {
+  font-style: normal;
+}
 
 /* @end */
 /* @group replaced tags */
 img {
-  vertical-align: bottom; }
+  vertical-align: bottom;
+}
 
 /* @end *i */
+.navBar {
+  padding-left: 24.59%;
+  width: 72.131%;
+  display: inline;
+  float: left;
+  margin-right: 1.639%;
+  clear: both;
+  margin-right: 1.639%;
+  margin-left: 1.639%;
+}
+
+.navBar li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.navBar li:hover {
+  text-decoration: none;
+  curser: pointer;
+}
+
+li {
+  width: 100px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+}
+li {
+  display: block;
+}
+li li {
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+li li.first {
+  padding-left: 0px;
+}
+li li.last {
+  padding-right: 0px;
+}
+
+.about {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/aboutTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.food {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/foodTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.flowers {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/flowersTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.decor {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/decorTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.weddings {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/weddingsTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 5px;
+}
+
+.contact {
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(/images/contactTmp.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-right: 15px;
+}
 
 /* @end */
 /* @group STRUCTURE */

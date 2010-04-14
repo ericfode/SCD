@@ -225,4 +225,32 @@ img
     :text-decoration none
     :curser pointer
 
+.navBar
+  +prefix(3)
+  +columns(9)
+  +full
+//working getting text to flow into the middle of the page instead
+//on the top of the page
+.navBar li
+  +div-link
+li
+  :width 100px
+  :height 30px  
+  +horizontal-list()
+  :float right
+.about
+  +replace-text("/images/aboutTmp.gif")
+.food
+  +replace-text("/images/foodTmp.gif")
+.flowers
+  +replace-text("/images/flowersTmp.gif")
+.decor
+  +replace-text("/images/decorTmp.gif")
+//need to manualy replace the text here
+.weddings
+  +replace-text("/images/weddingsTmp.gif",50%)
+  :padding-top 5px
+.contact
+  +replace-text("/images/contactTmp.gif")
+  :margin-right 15px
 

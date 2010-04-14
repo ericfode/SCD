@@ -4,6 +4,10 @@
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
 /* @group defaults */
+/* *
+ * OMEGA_FLOAT
+ * By default, +omega elements are floated right.
+ * You can override that globally here: */
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: #444444;
@@ -157,14 +161,14 @@ img {
 
 /* @end *i */
 .navBar {
-  padding-left: 24.59%;
-  width: 72.131%;
+  padding-left: 23.81%;
+  width: 69.841%;
   display: inline;
   float: left;
-  margin-right: 1.639%;
+  margin-right: 1.587%;
   clear: both;
-  margin-right: 1.639%;
-  margin-left: 1.639%;
+  margin-right: 3.175%;
+  margin-left: 3.175%;
 }
 
 .navBar li a {

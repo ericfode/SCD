@@ -30,7 +30,7 @@ body#food
   .overlay
     :position absolute
     
-    :width 1020px
+    :width 1022px
     :top 210px
     :z-index -1
     :background-image url("../images/foodColo.png")
@@ -58,7 +58,7 @@ body#food
     :background-repeat no-repeat
     :position relative
     :left 175px
-    :height 35px
+    :height 40px
     :width 700px
     +columns(12)
     +full

@@ -15,6 +15,7 @@ body#contact
 
 
   #logo
+    +div-link
     :float left
     :background-image url("../images/logoTmp.gif")
     :background-repeat no-repeat
@@ -67,7 +68,7 @@ body#contact
 
   #contactInfo
     :position relative
-    :top 20px
+    :top 25px
 
     :background-image url("/images/contactInfoTmp.gif")
     :background-repeat no-repeat

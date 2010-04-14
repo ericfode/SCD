@@ -19,7 +19,7 @@
   OMEGA_FLOAT
   By default, +omega elements are floated right.
   You can override that globally here:
-!omega_float = "left"
+//!omega_float = "left"
 
 
 //**

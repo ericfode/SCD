@@ -52,7 +52,7 @@ body#food
     
   #contactInfo
     :position relative
-    :top 20px
+    :top 25px
 
     :background-image url("/images/contactInfoTmp.gif")
     :background-repeat no-repeat

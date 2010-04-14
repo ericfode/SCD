@@ -71,7 +71,7 @@ body#main
   #footer
     +columns(12) 
     // background-color green
-    :padding-top 20px
+    :padding-top 25px
     :height 200px
     
 

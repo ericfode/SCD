@@ -29,7 +29,7 @@ body#main
   .overlay
     :position absolute
     :width 1024px
-    :top 55px 
+    :top 210px 
     :z-index -1
     :background-image url("/images/homeGrey.gif")
     :background-repeat repeat-x repeat-y
@@ -71,7 +71,7 @@ body#main
   #footer
     +columns(12) 
     // background-color green
-    :padding-top 15px
+    :padding-top 20px
     :height 200px
     
 

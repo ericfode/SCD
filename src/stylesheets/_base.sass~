@@ -226,6 +226,8 @@ img
     :curser pointer
 
 .navBar
+  :height 100px
+  :padding-top 17px
   +prefix(3)
   +columns(9)
   +full
@@ -239,18 +241,35 @@ li
   +horizontal-list()
   :float right
 .about
-  +replace-text("/images/aboutTmp.gif")
+  :background-image url("/images/aboutTmp.gif")
+  :width 60px
+  :height 17px
 .food
-  +replace-text("/images/foodTmp.gif")
+  :background-image url("/images/foodTmp.gif")
+  :width 47px
+  :height 17px
+  :margin-left 17px
+  
 .flowers
-  +replace-text("/images/flowersTmp.gif")
+  :background-image url("/images/flowersTmp.gif")
+  :width 75px
+  :height 17px
+  :margin-left 10px
+
 .decor
-  +replace-text("/images/decorTmp.gif")
+  :background-image url("/images/decorTmp.gif")
+  :width 60px
+  :height 17px
+  :margin-left 17px
 //need to manualy replace the text here
 .weddings
-  +replace-text("/images/weddingsTmp.gif",50%)
-  :padding-top 5px
+  :background-image url("/images/weddingsTmp.gif",50%)
+  :width 94px
+  :height 17px
+  :margin-right 9px
 .contact
-  +replace-text("/images/contactTmp.gif")
+  :background-image url("/images/contactTmp.gif")
+  :width 79px
+  :height 18px
   :margin-right 15px
 

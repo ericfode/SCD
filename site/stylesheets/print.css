@@ -218,6 +218,8 @@ img {
 
 /* @end *i */
 .navBar {
+  height: 100px;
+  padding-top: 17px;
   padding-left: 23.81%;
   width: 69.841%;
   display: inline;
@@ -270,52 +272,43 @@ li li.last {
 }
 
 .about {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/aboutTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url("/images/aboutTmp.gif");
+  width: 60px;
+  height: 17px;
 }
 
 .food {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/foodTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url("/images/foodTmp.gif");
+  width: 47px;
+  height: 17px;
+  margin-left: 17px;
 }
 
 .flowers {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/flowersTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url("/images/flowersTmp.gif");
+  width: 75px;
+  height: 17px;
+  margin-left: 10px;
 }
 
 .decor {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/decorTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url("/images/decorTmp.gif");
+  width: 60px;
+  height: 17px;
+  margin-left: 19px;
 }
 
 .weddings {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/weddingsTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  padding-top: 5px;
+  background-image: url("/images/weddingsTmp.gif",50%);
+  width: 94px;
+  height: 17px;
+  margin-right: 9px;
 }
 
 .contact {
-  text-indent: -9999em;
-  overflow: hidden;
-  background-image: url(/images/contactTmp.gif);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url("/images/contactTmp.gif");
+  width: 79px;
+  height: 18px;
   margin-right: 15px;
 }
 

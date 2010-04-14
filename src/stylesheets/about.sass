@@ -1,0 +1,57 @@
+@import _base.sass
+
+body#about
+  +susy
+  .container
+    +container 
+    
+    +sans-family
+  :width 1024px    
+  :background-color black 
+  :background-image url("../images/bgTmp.gif")
+  :background-position 50%
+  :background-repeat repeat-y
+  :margin-left auto
+  :margin-right auto
+  
+  .overlay
+    :position absolute
+    :height 305px
+    :width 1024px
+    :top 250px
+    :z-index -1 
+    :background-image url("../images/aboutColo.png")
+    :background-repeat repeat-x repeat-y
+    :height 500px
+    
+
+
+  #logo
+    +div-link
+    :float left
+    :background-image url("../images/logoTmp.gif")
+    :background-repeat no-repeat
+    :padding-bottom 10px
+    +columns(4)
+    +suffix(8)
+    +full 
+    :height 146px
+ 
+
+  #bodyContent  
+    :margin-top 2em
+    :position static
+    :height 500px
+    :width 1000px
+    :float right 
+    :background-image url("../images/aboutus.png" )
+
+
+  #contactInfo
+    :padding-top 40px
+    :background-image url("/images/contactInfoTmp.gif")
+    :height 20px
+    :width 700px
+    +columns(12)
+    +full
+

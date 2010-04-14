@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <style type='text/css'>
+      body { font-family: helvetica, verdana, arial; font-size: 10pt;}
+    </style>
+  </head>
+  <body>
+    <h1>
+      StaticMatic::TemplateError
+      in
+      C:/Users/Efode/Desktop/SCD2/src/stylesheets/index.sass
+    </h1>
+    <p>File to import not found or unreadable: _base.sass.</p>
+    1: @import _base.sass<br/>2: <br/>3: <br/>4: body#main<br/>
+    <h2>Backtrace</h2>
+    (sass):1<br/>(sass):1<br/>(sass):1<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/import_node.rb:53:in `import'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/import_node.rb:33:in `perform!'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:181:in `_perform'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:158:in `perform'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:202:in `perform_children'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:202:in `map'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:202:in `perform_children'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:193:in `perform!'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:181:in `_perform'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:158:in `perform'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/tree/node.rb:103:in `render'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/haml-2.2.21/lib/sass/engine.rb:164:in `to_css'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/render.rb:81:in `generate_css'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:23:in `build_css'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:19:in `each'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:19:in `build_css'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:4:in `build'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/base.rb:60:in `send'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/../lib/staticmatic/base.rb:60:in `run'<br/>C:/Ruby/lib/ruby/gems/1.8/gems/staticmatic-0.10.8/bin/staticmatic:23<br/>C:/Ruby/bin/staticmatic:19:in `load'<br/>C:/Ruby/bin/staticmatic:19
+  </body>
+</html>

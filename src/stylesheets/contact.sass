@@ -1,0 +1,94 @@
+@import _base.sass
+
+body#main
+  +susy
+  .container
+    +container 
+    +sans-family
+  :width 1024px    
+  :background-color black
+  :background-image url("../images/bgTmp.gif")
+  :background-position 50%
+  :background-repeat repeat-y
+  :margin-left auto
+  :margin-right auto
+
+
+  #logo
+    :float left
+    :background-image url("../images/logoTmp.gif")
+    :background-repeat no-repeat
+    :padding-bottom 10px
+    +columns(4)
+    +suffix(8)
+    +full 
+
+    :height 146px
+
+  .overlay
+    :position absolute
+    :height 385px
+    :width 1024px
+    :top 190px
+    :z-index -1
+    
+// :background-image url("../images/homeGrey.gif")
+// :background-repeat repeat-x repeat-y
+
+  #bodyContent
+    :margin-top 2em
+    +columns(12)
+    +full
+    :height 500px;
+    :background-image url("../images/contantMiddle.png")
+    :background-repeat repeat-x
+    
+    
+
+  #footer
+    +columns(12) 
+    // background-color green
+    :padding-top 5px
+    :height 200px
+    
+
+    #recentEvents 
+      :text-align left
+      +columns(12)
+      +full
+      :padding-bottom 15px
+      :background-image url("../images/recentEventsTmp.gif")
+      :float left
+      :background-repeat no-repeat
+      :height 27px
+    
+    
+    
+    .recentPics
+      
+      +horizontal-list()
+      +columns(12)
+      +full
+      :height 100px
+    .recentPics li
+      :height 100px
+
+
+    .img
+      :width 122px
+      :height 100px
+      :background-repeat no-repeat
+
+    #img1
+      :background-image url("../images/pic1tmp.gif") 
+    #img2
+      :background-image url("../images/pic2tmp.gif")
+    #img3
+      :background-image url("../images/pic3tmp.gif")
+
+    #contactInfo
+      +replace-text("../images/contactInfoTmp.gif")
+      +columns(12)
+      +full
+      :height 20px
+      :margin-top 10px

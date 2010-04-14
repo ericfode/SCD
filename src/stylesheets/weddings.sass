@@ -1,0 +1,65 @@
+@import _base.sass
+
+body#weddings
+  +susy
+  .container
+    +container 
+    
+    +sans-family
+  :width 1024px    
+  :background-color black 
+  :background-image url("../images/bgTmp.gif")
+  :background-position 50%
+  :background-repeat repeat-y
+  :margin-left auto
+  :margin-right auto
+
+
+  #logo
+    +div-link
+    :float left
+    :background-image url("../images/logoTmp.gif")
+    :background-repeat no-repeat
+    :padding-bottom 10px
+    +columns(4)
+    +suffix(8)
+    +full 
+    :height 146px
+
+  .overlay
+    :position absolute
+    :width 1024px
+    :top 210px
+    :z-index -1
+    :background-image url("../images/weddingColo.png")
+    :background-repeat repeat-x repeat-y
+    :height 550px
+
+
+  #bodyContent  
+    :margin-top 2em
+    :position static
+    :height 500px
+    :width 1000px
+    :float right
+    :background-image url("../images/WeddingsMiddle.png" )
+    :background-repeat no-repeat
+
+
+   
+        
+  #contactInfo
+    :position relative
+    :top 15px
+
+    :background-image url("/images/contactInfoTmp.gif")
+    :background-repeat no-repeat
+    :position relative
+    :left 175px
+    :height 35px
+    :width 700px
+    +columns(12)
+    +full
+
+
+

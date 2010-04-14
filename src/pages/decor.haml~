@@ -1,0 +1,39 @@
+%html
+  %head
+    %link{ :href => "stylesheets/screen.css", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "stylesheets/print.css", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "stylesheets/decor.css", :rel => "stylesheet", :type => "text/css" }
+ 
+   
+  %body#decor
+    .overlay
+    .container
+      #header
+        #logo
+          %a(href="./index.html")
+        %ul.navBar 
+          %li
+            .about.first 
+              %a(href="./about.html")
+          %li
+            .food 
+              %a(href="./food.html")
+          %li
+            .flowers 
+              %a(href="./food.html")
+          %li
+            .decor 
+              %a(href="./decor.html")
+          %li
+            .weddings 
+              %a(href="./weddings.html")
+          %li
+            .contact  
+              %a(href="./contact.html")
+               
+      #bodyContent
+        
+      #contactInfo
+         
+
+

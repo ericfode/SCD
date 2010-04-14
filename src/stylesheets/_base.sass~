@@ -244,28 +244,34 @@ li
   :background-image url("/images/aboutTmp.gif")
   :width 60px
   :height 17px
+  &:hover
+    :background-image url("/images/AboutOvr.gif)
 .food
   :background-image url("/images/foodTmp.gif")
   :width 47px
   :height 17px
   :margin-left 17px
-  
+  &:hover
+    :background-image url("/images/FoodOvr.gif")
 .flowers
   :background-image url("/images/flowersTmp.gif")
   :width 75px
   :height 17px
   :margin-left 10px
-
+  &:hover
+    :background-image url("/images/FlowerOvr.gif")
 .decor
   :background-image url("/images/decorTmp.gif")
   :width 60px
   :height 17px
   :margin-left 19px
+  &:hover
+    :background-image url("/images/DecorOvr.gif")
 //need to manualy replace the text here
 .weddings
   :background-image url("/images/weddingsTmp.gif")
   :width 94px
-  :height 27px
+  :height 22px
   :background-repate no-repeat
   :margin-right 9px
 .contact

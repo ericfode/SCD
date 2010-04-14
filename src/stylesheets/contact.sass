@@ -1,6 +1,6 @@
 @import _base.sass
 
-body#main
+body#contact
   +susy
   .container
     +container 
@@ -27,68 +27,63 @@ body#main
 
   .overlay
     :position absolute
-    :height 385px
-    :width 1024px
-    :top 190px
-    :z-index -1
     
-// :background-image url("../images/homeGrey.gif")
-// :background-repeat repeat-x repeat-y
+    :width 1020px
+    :top 210px
+    :z-index -1
+
+    :background-image url("../images/contactColo.gif")
+    :background-repeat repeat-x repeat-y
+    :height 550px
+
 
   #bodyContent
     :margin-top 2em
     +columns(12)
     +full
-    :height 500px;
-    :background-image url("../images/contantMiddle.png")
-    :background-repeat repeat-x
+    :height 500px
+    :background-image url("../images/contact.gif")
+    :background-repeat no-repeat
     
     
+  
+  #formContent
+    :margin-top 180px
+    +columns(8,12)
+    +prefix(.25)
+    +alpha(12)
 
-  #footer
-    +columns(12) 
-    // background-color green
-    :padding-top 5px
-    :height 200px
+  input
+    :width 500px
     
+  .inquire
+    :position relative
+    :left 2px
+    :height 130px 
+  .submit
+    :width 120px
+    :position static
+    :margin 0 auto 0 auto
 
-    #recentEvents 
-      :text-align left
-      +columns(12)
-      +full
-      :padding-bottom 15px
-      :background-image url("../images/recentEventsTmp.gif")
+  #contactInfo
+    :position relative
+    :top 20px
+
+    :background-image url("/images/contactInfoTmp.gif")
+    :background-repeat no-repeat
+    :position relative
+    :left 175px
+    :height 40px
+    :width 700px
+    +columns(12)
+    +full
+ 
+    .dataForm 
+      :display block
+      :position relitve 
+      :top 70px
       :float left
-      :background-repeat no-repeat
-      :height 27px
-    
-    
-    
-    .recentPics
-      
-      +horizontal-list()
-      +columns(12)
-      +full
-      :height 100px
-    .recentPics li
-      :height 100px
+      :text-align right
+      :margin-right 0.5em
+      :display block
 
-
-    .img
-      :width 122px
-      :height 100px
-      :background-repeat no-repeat
-
-    #img1
-      :background-image url("../images/pic1tmp.gif") 
-    #img2
-      :background-image url("../images/pic2tmp.gif")
-    #img3
-      :background-image url("../images/pic3tmp.gif")
-
-    #contactInfo
-      +replace-text("../images/contactInfoTmp.gif")
-      +columns(12)
-      +full
-      :height 20px
-      :margin-top 10px

@@ -5,7 +5,7 @@
     %link{ :href => "stylesheets/contact.css", :rel => "stylesheet", :type => "text/css" }
   %title Contact
    
-  %body#main
+  %body#contact
     .overlay
     .container
       #header
@@ -30,16 +30,20 @@
             .contact 
               %a(href="./contact.html")
                
-      #bodyContent 
-            
-      #footer
-        #recentEvents
-        %ul.recentPics
-          %li
-            #img1.img
-          %li  
-            #img2.img
-          %li
-            #img3.img
-        #contactInfo
-          contact info will be here
+  #bodyContent
+    #formContent  
+      %form.dataForm{:action => "mailto:ericfode@gmail.com", :method=>"post", :enctype=>"text/plain" }
+        Name:  
+        %input.name(type="text"  name="Name")
+        %br
+        Email:      
+        %input.email(type="text"name="email")
+        %br  
+        Inquire:    
+        %textarea.inquire(type="textarea" rows=13 cols=4 name="inquire")
+        %br
+        %input.submit(type="submit")
+
+      
+  #contactInfo
+  

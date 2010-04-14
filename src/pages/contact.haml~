@@ -5,41 +5,45 @@
     %link{ :href => "stylesheets/contact.css", :rel => "stylesheet", :type => "text/css" }
   %title Contact
    
-  %body#main
+  %body#contact
     .overlay
     .container
       #header
         #logo
         %ul.navBar 
           %li
-            .about.first about
-            %a(href="./about.html")
+            .about.first 
+              %a(href="./about.html")
           %li
-            .food food
-            %a(href="./food.html")
+            .food 
+              %a(href="./food.html")
           %li
-            .flowers flowers
-            %a(href="./flowers.html")
+            .flowers 
+              %a(href="./flowers.html")
           %li
-            .decor decor
-            %a(href="./decor.html")
+            .decor 
+              %a(href="./decor.html")
           %li
-            .weddings weddings
-            %a(href="./wedding.html")
+            .weddings 
+              %a(href="./wedding.html")
           %li
-            .contact contact
-            %a(href="./contact.html")
+            .contact 
+              %a(href="./contact.html")
                
-      #bodyContent 
-            
-      #footer
-        #recentEvents
-        %ul.recentPics
-          %li
-            #img1.img
-          %li  
-            #img2.img
-          %li
-            #img3.img
-        #contactInfo
-          contact info will be here
+  #bodyContent
+    #formContent  
+      %form.dataForm{:action => "mailto:ericfode@gmail.com", :method=>"post", :enctype=>"text/plain" }
+        Name:  
+        %input.name(type="text"  name="Name")
+        %br
+        Email:      
+        %input.email(type="text"name="email")
+        %br  
+        Inquire:    
+        %textarea.inquire(type="textarea" rows=13 cols=5 name="inquire")
+        %br
+        %input.submit(type="submit")
+
+      
+  #contactInfo
+  

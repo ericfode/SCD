@@ -16,17 +16,20 @@ body#main
 
 
   #logo
+    +div-link
     :float left
     :background-image url("/images/logoTmp.gif")
     :background-repeat no-repeat
     :padding-bottom 10px
     +columns(4)
     +suffix(8)
-    +full 
+    +full
+    :height 146px
+
   .overlay
     :position absolute
     :width 1024px
-    :top 200px 
+    :top 55px 
     :z-index -1
     :background-image url("/images/homeGrey.gif")
     :background-repeat repeat-x repeat-y
@@ -68,7 +71,7 @@ body#main
   #footer
     +columns(12) 
     // background-color green
-    :padding-top 5px
+    :padding-top 15px
     :height 200px
     
 

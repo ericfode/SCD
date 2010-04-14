@@ -61,10 +61,9 @@ body#contact
     :left 2px
     :height 130px 
   .submit
-    :float left
     :width 120px
-    :position relative
-    :margin-right 70px
+    :position static
+    :margin 0 auto 0 auto
 
   #contactInfo
     :position relative

@@ -16,7 +16,9 @@
         <div class='overlay'></div>
         <div class='container'>
           <div id='header'>
-            <div id='logo'></div>
+            <div id='logo'>
+              <a href='./index.html'></a>
+            </div>
             <ul class='navBar'>
               <li>
                 <div class='about first'>
@@ -40,7 +42,7 @@
               </li>
               <li>
                 <div class='weddings'>
-                  <a href='./wedding.html'></a>
+                  <a href='./weddings.html'></a>
                 </div>
               </li>
               <li>
@@ -50,18 +52,25 @@
               </li>
             </ul>
           </div>
-          <div id='bodyContent'>
-            <form action='mailto:mariasestero@hotmail.com' class='dataForm' enctype='text/plain' method='post'></form>
-            Name:
-            <input class='name' name='Name' type='text' />
-            Email:
-            <input class='email' name='email' type='text' />
-            Inquire:
-            <input class='inquire' name='inquire' type='text' />
-          </div>
-          <div id='contactInfo'></div>
         </div>
       </body>
+      <div id='bodyContent'>
+        <div id='formContent'>
+          <form action='mailto:ericfode@gmail.com' class='dataForm' enctype='text/plain' method='post'>
+            Name:
+            <input class='name' name='Name' type='text' />
+            <br />
+            Email:
+            <input class='email' name='email' type='text' />
+            <br />
+            Inquire:
+            <textarea class='inquire' cols='4' name='inquire' rows='13' type='textarea'></textarea>
+            <br />
+            <input class='submit' type='submit' />
+          </form>
+        </div>
+      </div>
+      <div id='contactInfo'></div>
     </html>
   </body>
 </html>

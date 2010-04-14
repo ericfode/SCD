@@ -40,7 +40,7 @@
         %input.email(type="text"name="email")
         %br  
         Inquire:    
-        %textarea.inquire(type="textarea" rows=13 cols=5 name="inquire")
+        %textarea.inquire(type="textarea" rows=13 cols=4 name="inquire")
         %br
         %input.submit(type="submit")
 

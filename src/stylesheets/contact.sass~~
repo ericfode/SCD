@@ -1,0 +1,90 @@
+@import _base.sass
+
+body#contact
+  +susy
+  .container
+    +container 
+    +sans-family
+  :width 1024px    
+  :background-color black
+  :background-image url("../images/bgTmp.gif")
+  :background-position 50%
+  :background-repeat repeat-y
+  :margin-left auto
+  :margin-right auto
+
+
+  #logo
+    +div-link
+    :float left
+    :background-image url("../images/logoTmp.gif")
+    :background-repeat no-repeat
+    :padding-bottom 10px
+    +columns(4)
+    +suffix(8)
+    +full 
+
+    :height 146px
+
+  .overlay
+    :position absolute
+    
+    :width 1020px
+    :top 210px
+    :z-index -1
+
+    :background-image url("../images/contactColo.gif")
+    :background-repeat repeat-x repeat-y
+    :height 550px
+
+
+  #bodyContent
+    :margin-top 2em
+    +columns(12)
+    +full
+    :height 500px
+    :background-image url("../images/contact.gif")
+    :background-repeat no-repeat
+    
+    
+  
+  #formContent
+    :margin-top 180px
+    +columns(8,12)
+    +prefix(.25)
+    +alpha(12)
+
+  input
+    :width 500px
+    
+  .inquire
+    :position relative
+    :left 2px
+    :height 130px 
+  .submit
+    :width 120px
+    :position static
+    :margin 0 auto 0 auto
+
+  #contactInfo
+    :position relative
+    :top 20px
+
+    :background-image url("/images/contactInfoTmp.gif")
+    :background-repeat no-repeat
+    :position relative
+    :left 175px
+    :height 40px
+    :width 700px
+    +columns(12)
+    +full
+ 
+    .dataForm 
+      :display block
+      :position relitve 
+      :top 70px
+      :float left
+      :text-align right
+      :margin-right 0.5em
+      :display block
+
